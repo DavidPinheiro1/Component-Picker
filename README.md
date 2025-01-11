@@ -5,3 +5,4 @@ HTML and CSS for the website.
 Python for the web-scraper and database.
 SQL Lite for the database.
 
+![Uploading image.png…]()
