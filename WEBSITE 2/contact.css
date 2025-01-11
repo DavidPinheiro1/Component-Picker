@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow:inherit;
+  }
+  
+  .banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(229,165,39, 0.2), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(3, 104, 104, 0.2)), url(background.jpg) ;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  
+  .navbar{
+    background-color: rgba(71, 71, 71, 0.658);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    margin-left: 40px;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .navbar ul li a{
+    font-size: large;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.8;
+    transition: 1s;
+  }
+  
+  .navbar ul li a:hover{
+    display: flex;
+    text-align: center;
+    padding: 20px 22px;
+    background-color: rgba(229,165,39, 0.5);
+    border-radius: 30px;
+    }
+  
+  /* ----------------------------------------- Formulario ----------------------------------------------- */
+
+    .contact_form{	
+        width: 460px; 
+        height: auto;
+        margin: 80px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #fbfbfb; 
+        padding-left: 30px; 
+    }
+    
+    
+    input{
+        background-color: #fbfbfb; 
+        width: 408px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgba(229,165,39, 0.5); 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+    }
+    
+    
+    textarea{
+        background-color: #fbfbfb; 
+        width: 405px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: rgba(229,165,39, 0.5); 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+    }
+    
+    
+    label{
+        display: block; 
+        float: center; 	
+    }
+    
+    
+    button{
+        height: 45px; 
+        padding-left: 15px;
+        padding-right: 15px; 	
+        margin-bottom: 20px; 
+        margin-top: 10px; 	
+        text-transform: uppercase;
+        background-color: rgba(229,165,39, 0.5); 
+        border-color: rgba(229,165,39, 0.5); 
+        border-style: solid; 
+        border-radius: 10px;	
+        width: 420px;   
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    
+    button p{
+        color: #fff; 
+    }
+    
+    
+    span{
+        color: rgba(255, 0, 0, 0.5); 
+    }
+    
+    
+    .aviso{
+        font-size: 13px;  
+        color: #0e0e0e;  
+    }
+    
+    
+    h1{
+        font-size: 39px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: rgb(229, 166, 39);
+    }
+    
+    
+    h3{
+        font-size: 16px; 
+        padding-bottom: 30px;
+        color: #0e0e0e;   
+    }
+    
+    
+    p{
+        font-size: 14px; 
+        color: #0e0e0e; 
+    }
+    
+    
+    ::-webkit-input-placeholder {
+     color: #a8a8a8;
+    }
+    
+    
+    ::-webkit-textarea-placeholder {
+     color: #a8a8a8;
+    }
+    
+    
+    .formulario input:focus{
+        outline:0;
+        border: 1px solid rgb(3, 104, 104);
+    }
+    
+    
+    .formulario textarea:focus{
+        outline:0;
+        border: 1px solid rgba(3, 104, 104);
+    }
+      
+      button:hover, .btn:focus, .btn:active{
+        border-radius: 25px;
+        padding: 2px;
+        box-shadow: 0 0 20px rgba(3, 104, 104, 0.479);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        background-color: rgba(3, 104, 104, 0.479); 
+        border-color: rgba(3, 104, 104, 0.479); 
+      }
+
+    /* ---------------------------------------logos--------------------------------------- */
+
+
+.escolas p{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .escolas .escolalogo{
+    width: 1000px;
+  }
+  

@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>
+            CP PICKER - Contacto
+        </title>
+        <link rel="shortcut icon" href="logo.png" />
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        
+        <div class="banner">
+            <div class="navbar"> 
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="construir.html">Construir</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </div>
+
+        <div class="contact_form">
+
+            <div class="formulario">			
+          <h1>Formulário de contacto</h1>
+    
+                        <form action="submeter-formulario.php" method="post">				
+    
+                            
+                                    <p>
+                                        <label for="nombre" class="colocar_nombre">Nome
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escreve o teu nome">
+                                    </p>
+                                
+                                    <p>
+                                        <label for="email" class="colocar_email">Email
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escreve o teu Email">
+                                    </p>
+                            
+                                    <p>
+                                        <label for="telefone" class="colocar_telefono">Telefone
+                                        </label>
+                                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escreve o teu telefone">
+                                    </p>			
+                                
+                                    <p>
+                                        <label for="asunto" class="colocar_asunto">Assunto
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escreve o assunto">
+                                    </p>		
+                                
+                                    <p>
+                                        <label for="mensaje" class="colocar_mensaje">Mensagem
+                                            <span class="obligatorio">*</span>
+                                        </label>                     
+                                             <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Escreve aqui a tua mensagem..."></textarea> 
+                                       </p>	  								
+                                
+                                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                                    <p class="aviso">
+                                        <span class="obligatorio"> * </span>Os campos são obrigatórios.
+                                    </p>					
+                            
+                        </form>
+                        
+            </div>	
+            
+        </div>
+        <div class="escolas">
+            <p><img src="escolas.png" class="escolalogo"></p>
+        </div>
+        </div>
+
+        </div>
+
+    </body>
+
+</html>
